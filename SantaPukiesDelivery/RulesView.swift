@@ -21,7 +21,7 @@ struct RulesView: View {
                             .resizable()
                             .frame(width: 267, height: 118)
                         
-                        Text("Take control of Santa as he rides his magical sleigh through the snowy skies! Collect as many falling presents as possible to earn points, but be careful to avoid obstacles like icy winds and chimneys that can slow you down. Keep your sleigh moving smoothly and aim for the highest score to save Christmas!")
+                        Text("Control Santa’s sleigh to collect all the gifts scattered across the map. Use arrows or swipes to move around. Avoid obstacles like trees, cars, and cones. Collect all the gifts before the timer runs out to progress to the next level. If you hit an obstacle or run out of time, the game is over.")
                             .font(.system(size: 14, weight: .semibold, design: .monospaced))
                             .foregroundStyle(.white)
                             .multilineTextAlignment(.center)
